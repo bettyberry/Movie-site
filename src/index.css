@@ -56,6 +56,9 @@
   .wrapper {
     @apply px-5 py-12 xs:p-10 max-w-7xl mx-auto flex flex-col relative z-10;
   }
+header img.logo {
+  @apply block mx-auto w-24 h-auto drop-shadow-md; 
+}
 
   .trending {
     @apply mt-20;
